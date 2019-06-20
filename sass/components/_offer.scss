@@ -1,0 +1,47 @@
+.offer {
+    padding: 90px 0 30px;
+
+    .offer-reverse {
+        @media (max-width: 768px) {
+            flex-direction: column-reverse;
+        }
+    }
+    .offer-box {
+        @media (max-width: 640px) {
+            padding: 0 1rem;
+        }
+
+        .offer-text {
+            align-items: center;
+            display: flex;
+
+            .card-body {
+                @media (max-width: 768px) {
+                    padding: 1.25rem 0;
+                    color: #222;
+                }
+
+                .card-title {
+                    color: $primary;
+                    position: relative;
+                    display: inline-block;
+                    padding-bottom: 10px;
+
+                    &:after {
+                        position: absolute;
+                        content: '';
+                        top: 105%;
+                        left: 0;
+                        width: 20%;
+                        height: 1px;
+                        background: $primary;
+                    }
+                }
+
+                .card-text {
+                    font-weight: 200;
+                }
+            }
+        }
+    }
+}

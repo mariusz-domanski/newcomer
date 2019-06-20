@@ -1,47 +1,160 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Newcomer">
     <title>Newcomer</title>
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap&subset=latin-ext" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" />
     <link href="css/style.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/templates/template_1.css" />
 </head>
+
 <body>
 
-<!-- header -->
-<section class="header">
-    <div class="container">
-        <div class="row header-content">
-            <div class="col-xs-12 col-md-3">
-                <div class="logo">
-                    <a href="/"><img src="images/logo.png" alt="logo" /></a>
+    <!-- header -->
+    <section class="header">
+        <div class="container header-section">
+            <div class="row header-content">
+                <div class="col-xs-3">
+                    <div class="logo">
+                        <a href="/"><img src="images/logo.png" alt="logo" /></a>
+                    </div>
+                </div>
+                <div class="col-xs-9">
+                    <nav class="navbar menu" id="menu">
+                        <ul class="menu-list">
+                            <li class="nav-item active"><a href="#" class="nav-link">Strona główna</a></li>
+                            <li class="nav-item"><a data-scroll href="#uslugi" class="nav-link">Usługi</a></li>
+                            <li class="nav-item"><a data-scroll href="#cennik" class="nav-link">Cennik</a></li>
+                            <li class="nav-item"><a href="http://profesjonalneszkolenia.com.pl" target="_blank"
+                                    class="nav-link">Szkolenia</a></li>
+                            <li class="nav-item"><a href="https://hurtowniawera.pl/" target="_blank"
+                                    class="nav-link">Hurtownia</a></li>
+                            <li class="nav-item"><a data-scroll href="#kontakt" class="nav-link">Kontakt</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="hamburger-menu">
+                        <a class="d-flex justify-content-end toggleMenuButton" id="toggleMenuButton"><i
+                                class="fas fa-bars" id="mobile-icon"></i></a>
+                        <ul class="mobile-nav text-center" id="mainNav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="/">Strona główna</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-scroll href="#uslugi">Usługi</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-scroll href="#cennik">Cennik</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://profesjonalneszkolenia.com.pl"
+                                    target="_blank">Szkolenia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://hurtowniawera.pl/" target="_blank">Hurtownia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-scroll href="kontakt">Kontakt</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
-            <div class="col-xs-12 col-md-9">
-                <nav class="navbar menu" id="menu">
-                    <ul class="menu-list">
-                        <li class="nav-item"><a href="#" class="nav-link">Strona główna</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Usługi</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Cennik</a></li>
-                        <li class="nav-item"><a href="http://profesjonalneszkolenia.com.pl" target="_blank" class="nav-link">Szkolenia</a></li>
-                        <li class="nav-item"><a href="https://hurtowniawera.pl/" target="_blank" class="nav-link">Hurtownia</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Kontakt</a></li>
-                    </ul>
-                </nav>
+        </div>
+        <div class="container-fluid slider">
+            <div class="row">
+                <div class="col-xs-12 col-md-6 slider-description">
+                    <span class="hero">Lorem ipsum</span>
+                    <span class="hero-description">Lorem ipsum dolor sit amet enim. Etiam ullamcorper.</span>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="container-fluid slider">
-    </div>
-</section>
-<!-- ./header -->
+    </section>
+    <!-- ./header -->
 
+    <!-- container -->
+    <section class="offer" id="uslugi">
+        <div class="container">
+            <div class="row no-gutters offer-box">
+                <div class="col-md-6">
+                    <img src="images/paznokcie.jpeg" class="card-img" alt="stylizacja paznokci">
+                </div>
+                <div class="col-md-6 offer-text">
+                    <div class="card-body">
+                        <h5 class="card-title">Stylizacja paznokci</h5>
+                        <p class="card-text">Profesjonalnie wykonany manicure sprawi, że poczujesz się bardziej pewna
+                            siebie. Nasze stylistki dołożą wszelkich starań, by efekt końcowy Cię zaskoczył. Wspólnie
+                            wybierzecie idealny kształt paznokcia, dopasowany do Twoich dłoni. Wykonujemy stylizacje
+                            różnymi metodami - wybierz taką, która spełni Twoje oczekiwania.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row no-gutters offer-reverse offer-box">
+                <div class="col-md-6 offer-text">
+                    <div class="card-body">
+                        <h5 class="card-title">Stylizacja rzęs</h5>
+                        <p class="card-text">Oczy są zwierciadłem duszy, dlatego warto zadbać o ich precyzyjną oprawę.
+                            Nasz salon świadczy usługi przedłużania i zagęszczania rzęs różnymi metodami, które
+                            dopasujemy indywidualnie do Twoich potrzeb.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/rzesy.jpeg" class="card-img" alt="stylizacja rzęs">
+                </div>
+            </div>
+            <div class="row no-gutters offer-box">
+                <div class="col-md-6">
+                    <img src="images/brwi.jpeg" class="card-img" alt="stylizacja i geometria brwi">
+                </div>
+                <div class="col-md-6 offer-text">
+                    <div class="card-body">
+                        <h5 class="card-title">Stylizacja i geometria brwi</h5>
+                        <p class="card-text">Idealnie podkreślone brwi to podstawa profesjonalnego makijażu. Nasze
+                            wykwalifikowane stylistki fachowo wyznaczą kształt brwi odpowiedni dla rysów Twojej twarzy
+                            oraz dobiorą odpowiedni kolor tak, by uzyskać jak najbardziej naturalny efekt zabiegu.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row no-gutters offer-reverse offer-box">
+                <div class="col-md-6 offer-text">
+                    <div class="card-body">
+                        <h5 class="card-title">Pedicure</h5>
+                        <p class="card-text">Pozwól swoim stopom na chwilę relaksu - nasze stylistki kompleksowo o nie
+                            zadbają. Wykonamy profesjonalny rytuał pielęgnacyjny zaczynający się od przygotowania stóp
+                            do zabiegu a zakończony pomalowaniem paznokci na kolor wybrany przez Ciebie z szerokiej gamy
+                            naszych lakierów.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/pedicure.jpeg" class="card-img" alt="pedicure">
+                </div>
+            </div>
+            <div class="row no-gutters offer-box">
+                <div class="col-md-6">
+                    <img src="images/podologia.jpeg" class="card-img" alt="podologia">
+                </div>
+                <div class="col-md-6 offer-text">
+                    <div class="card-body">
+                        <h5 class="card-title">Podologia</h5>
+                        <p class="card-text">Fachowo zadbamy o Twoje stopy - zdiagnozujemy problem oraz zaplanujemy
+                            profesjonalne leczenie tak, by Twoje stopy odzyskały perfekcyjny wygląd. W naszym salonie
+                            usuniesz odciski, modzele, pomożemy również w przypadku problemów z paznokciami - wszystkie
+                            zabiegi wykonywane są na najwyższym poziomie przez wykwalifikowany personel.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ./container -->
 
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
