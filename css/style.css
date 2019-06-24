@@ -3285,7 +3285,7 @@ body { font-family: 'Poppins', sans-serif; }
 
 .cta { background: url("../images/cta.jpg") top right no-repeat; color: #222; display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; -ms-flex-pack: center; justify-content: center; font-weight: 200; z-index: 9; }
 
-@media (max-width: 960px) { .cta { background-size: cover; } }
+@media (max-width: 960px) { .cta { background-size: cover; background-position: top center; } }
 
 .cta .cta-content { -ms-flex-pack: start; justify-content: flex-start; padding: 4rem 0; }
 
