@@ -42,6 +42,10 @@
                         width: 30%;
                         height: 1px;
                         background: $primary;
+
+                        @media (max-width: 640px) {
+                            width: 5%;
+                        }
                     }
 
                     &:after {
@@ -52,12 +56,20 @@
                         width: 30%;
                         height: 1px;
                         background: $primary;
+
+                        @media (max-width: 640px) {
+                            width: 5%;
+                        }
                     }
                 }
 
                 .price-title-big {
                     &:before, &:after {
                         width: 20%;
+
+                        @media (max-width: 640px) {
+                            width: 5%;
+                        }
                     }
                 }
             }
