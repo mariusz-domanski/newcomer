@@ -1,0 +1,78 @@
+.priceList {
+    padding: 30px 0;
+    background: #f7f7f7;
+
+    h2 {
+        color: $primary;
+        position: relative;
+        display: inline-block;
+        padding-bottom: 10px;
+
+        &:after {
+            position: absolute;
+            content: '';
+            top: 100%;
+            left: 0;
+            width: 20%;
+            height: 1px;
+            background: $primary;
+        }
+    }
+
+    .price-row {
+        margin-top: 60px;
+
+        .price-row-column {
+            padding: 0 40px;
+
+            .price-row-header {
+                text-align: center;
+
+                .price-title {
+                    color: $primary;
+                    position: relative;
+                    font-size: 1.2rem;
+                    display: block;
+
+                    &:before {
+                        position: absolute;
+                        content: '';
+                        top: 50%;
+                        left: 0;
+                        width: 30%;
+                        height: 1px;
+                        background: $primary;
+                    }
+
+                    &:after {
+                        position: absolute;
+                        content: '';
+                        top: 50%;
+                        right: 0;
+                        width: 30%;
+                        height: 1px;
+                        background: $primary;
+                    }
+                }
+
+                .price-title-big {
+                    &:before, &:after {
+                        width: 20%;
+                    }
+                }
+            }
+
+            ul {
+                padding: 0;
+                margin-top: 20px;
+                font-weight: 200;
+
+                li {
+                    list-style: none;
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+        }
+    }
+}

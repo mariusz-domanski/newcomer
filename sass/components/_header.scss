@@ -11,6 +11,11 @@ body {
         z-index: 9;
         box-shadow: 0px 5px 10px rgba(103, 98, 90, 0.1);
 
+        @media (max-width: 960px) {
+            display: flex;
+            align-items: center;
+        }
+
         .header-content {
             max-width: 1140px;
             align-items: center;
@@ -19,6 +24,8 @@ body {
 
             @media (max-width: 960px) {
                 justify-content: space-around;
+                max-width: 100%;
+                width: 100%;
             }
 
             .logo {
@@ -76,7 +83,7 @@ body {
                 .mobile-nav {
                     flex-direction: column;
                     position: absolute;
-                    top: 60px;
+                    top: 100px;
                     left: 0;
                     right: 0;
                     padding-bottom: 17px;
@@ -180,23 +187,22 @@ body {
 
         .slider-description {
             position: absolute;
-            top: 30%;
+            top: 40%;
             left: 10%;
             font-weight: 200;
 
             @media (max-width: 640px) {
-                top: 20%;
                 left: 0;
             }
 
             .hero {
-                font-size: 5rem;
+                font-size: 3rem;
                 display: inline-block;
                 position: relative;
                 color: $primary;
 
                 @media (max-width: 640px) {
-                    font-size: 4rem;
+                    font-size: 2rem;
                 }
 
                 &:after {
@@ -206,7 +212,7 @@ body {
                     height: 1px;
                     background: #222;
                     left: 0%;
-                    top: 100%;
+                    top: 114%;
                 }
             }
 

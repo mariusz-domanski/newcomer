@@ -1,0 +1,51 @@
+.footer {
+    margin: 20px;
+    
+    .contact-desc {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-weight: 200;
+
+        h2 {
+            color: $primary;
+            position: relative;
+            display: inline-block;
+            padding-bottom: 10px;
+
+            &:after {
+                position: absolute;
+                content: '';
+                top: 100%;
+                left: 0;
+                width: 20%;
+                height: 1px;
+                background: $primary;
+            }
+        }
+        ul {
+            padding:20px 0;
+            margin:0;
+            
+            li {
+                list-style: none;
+            }
+        }
+    }
+}
+
+.facebook {
+    position: fixed;
+    bottom: 10px;
+    right: 0;
+    margin-right: 10px;
+    animation-name: pulse;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+    .facebook-logo {
+        max-width: 80px;
+        transition: all 0.1s ease-in-out;
+    }
+}
