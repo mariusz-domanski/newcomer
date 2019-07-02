@@ -3275,9 +3275,15 @@ body { font-family: 'Poppins', sans-serif; }
 
 .priceList .price-row .price-row-column .price-row-header .price-title:before { position: absolute; content: ''; top: 50%; left: 0; width: 30%; height: 1px; background: #C3236D; }
 
+@media (max-width: 640px) { .priceList .price-row .price-row-column .price-row-header .price-title:before { width: 5%; } }
+
 .priceList .price-row .price-row-column .price-row-header .price-title:after { position: absolute; content: ''; top: 50%; right: 0; width: 30%; height: 1px; background: #C3236D; }
 
+@media (max-width: 640px) { .priceList .price-row .price-row-column .price-row-header .price-title:after { width: 5%; } }
+
 .priceList .price-row .price-row-column .price-row-header .price-title-big:before, .priceList .price-row .price-row-column .price-row-header .price-title-big:after { width: 20%; }
+
+@media (max-width: 640px) { .priceList .price-row .price-row-column .price-row-header .price-title-big:before, .priceList .price-row .price-row-column .price-row-header .price-title-big:after { width: 5%; } }
 
 .priceList .price-row .price-row-column ul { padding: 0; margin-top: 20px; font-weight: 200; }
 
